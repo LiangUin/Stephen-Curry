@@ -1,0 +1,287 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+
+body
+{
+    font-family: "Shippori Mincho", serif;
+    font-size: 18px;
+    color: #121212;
+}
+
+.innerWrap
+{
+    width: 1240px;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 80px 20px 0;
+}
+
+header
+{
+    background: url(./golden-state-warriors-nba-draymond-green.jpg) no-repeat right center/cover;
+    position: relative;
+}
+.ffosefin
+{
+    font-family: "Shippori Mincho", serif;
+}
+
+header h1
+{
+    padding-top: 120px;
+}
+
+header nav
+{
+    position: fixed;
+    left: 0;
+    top: 20px;
+    z-index: 100;
+    width: 100%;
+}
+
+header nav ul
+{
+    display: flex;
+    justify-content: space-around;
+    width: 1240px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    list-style: none;
+}
+
+header nav ul a
+{
+    text-decoration: none;
+    color: rgb(132, 153, 237);
+}
+
+header nav ul a:hover
+{
+    color: crimson;
+}
+
+/* main */
+main h2
+{
+    text-align: center;
+    font-size: 60px;
+    
+    margin-bottom: 80px;
+    color: rgb(73, 149, 225);
+}
+
+.msgSec
+{
+    background-color: rgb(249, 243, 194);
+}
+
+.msgSec p
+{
+    text-align: center;
+    
+    margin-bottom: 40px;
+}
+
+.msgSec p .illust
+{
+    margin-top: 80px;
+    margin-bottom: 0;
+    position: relative;
+}
+
+/* Career */
+.dateSec
+{
+    background-color: #ffffff;
+    padding-bottom: 200px;
+}
+
+.dateSec .layoutWrap
+{
+    display: flex;
+    
+}
+
+.dateSec .layoutWrap >p
+{
+    flex-basis: 735px;
+    
+}
+
+.dateSec .layoutWrap >div
+{
+    flex-basis: 1500px;
+    padding-top: 0px;
+}
+
+.dateSec .dateDetailSec
+{
+    font-size: 25px;
+    margin: 0 0 10px 0px;
+    background-color: #fff;
+    padding: 0px 0px ;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+}
+
+.world1
+{
+    font-size: 50px;
+    color: cadetblue;
+}
+
+.world2
+{
+    font-size: 40px;
+    color: cadetblue;
+}
+
+.world3
+{
+    font-size: 60px;
+    color: rgb(27, 131, 134);
+}
+
+/*.accessSec
+{
+    margin-left: 48px;
+}
+
+.accessSec h3
+{
+    color: #cfafa3;
+    font-size: 55px;
+    letter-spacing: 0.5rem;
+    margin-bottom: 8px;
+}
+
+.accessSec p
+{
+    line-height: 1.6;
+}*/
+
+/* form */
+
+.ta
+{
+    background-color: rgb(253, 221, 162);
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+.entrytable td
+{
+    border: 2px solid rgb(149, 145, 145);
+    background-color: rgb(193, 135, 248);
+}
+
+.h
+{
+    font-family: "Dancing Script", cursive;
+}
+
+.formSec
+{
+    background: #efe8d9;
+    padding-bottom: 60px;
+}
+
+form
+{
+    width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea
+{
+    border: 1px solid #cccccc;
+    background: #fff;
+    width: 100%;
+    margin-top: 5px;
+    padding: 4px 8px;
+}
+
+input[type="radio"],
+input[type="checbox"]
+{
+    width: 16px;
+    height: 16px;
+    vertical-align: baseline;
+    margin-right: 4px;
+}
+
+.attendRadio
+{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.attendRadio label
+{
+    margin: 0 20px;
+    font-size: 22px;
+}
+
+.allergyCheck label
+{
+    margin-right: 24px;
+}
+
+select
+{
+    background: #fff url(./images/arrow.png) no-repeat 98% 50%/17px 10px;
+}
+
+textarea
+{
+    height: 148px;
+    margin-bottom: 20px;
+}
+
+form >p
+{
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.submitBtn
+{
+    text-align: center;
+}
+
+input[type="submit"]
+{
+    background: #c7887f;
+    color: #dddcdc;
+    padding: 18px 80px;
+}
+/*
+.dateSec
+{
+    margin-bottom: 480px;
+}
+
+.dateSec::after
+{
+    content: "";
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: url(./images/bg.jpg) no-repeat center/cover;
+    z-index: -1;
+}
+*/
+
+footer
+{
+    background: rgb(249, 243, 194);
+    color: #80a9d1;
+    padding: 14px 10px 20px;
+    text-align: center;
+}
